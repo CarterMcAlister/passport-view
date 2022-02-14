@@ -10,8 +10,8 @@
         }
 
         .passport-body {
-            width: 575px;
-            height: 849px;
+            width: 267px;
+            height: 424px;
 
             background: linear-gradient(196.04deg,
                     #1b1714 6.15%,
@@ -23,7 +23,7 @@
         }
 
         .passport-title {
-            font-size: 60px;
+            font-size: 24px;
             padding-left: 30px;
             padding-top: 10px;
             padding-bottom: 15px;
@@ -39,27 +39,16 @@
         }
 
         .passport-subtitle {
-            font-size: 36px;
+            font-size: 16px;
             padding-top: 15px;
             padding-bottom: 15px;
         }
 
         .passport-role {
-            font-size: 36px;
+            font-size: 16px;
         }
     </style>
-</head>
-
-<body>
-    <div class="passport-body">
-        <div class="passport-title">Alliance</div>
-        <div class="passport-image-container">
-            <img class="passport-avatar" />
-        </div>
-        <div class="passport-subtitle">DAO Passport</div>
-        <div class="passport-role" />
-    </div>
-     <script>
+    <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
 
@@ -74,6 +63,18 @@
             "";
 
     </script>
+</head>
+
+<body>
+    <div class="passport-body">
+        <div class="passport-title">Alliance</div>
+        <div class="passport-image-container">
+            <img src="https://pbs.twimg.com/profile_images/1486745982532526086/41Kqg8Dr_400x400.png"
+                class="passport-avatar" />
+        </div>
+        <div class="passport-subtitle">DAO Passport</div>
+        <div class="passport-role" />
+    </div>
 </body>
 
 </html>

@@ -76,12 +76,12 @@
 
     const role = urlParams.get("role");
     const roleSection = document.querySelector(".passport-role");
-    roleSection.innerText = role;
+    roleSection.innerText = role || "Member";
 
     const avatar = urlParams.get("avatar");
     const avatarSection = document.querySelector(".passport-avatar");
     avatarSection.src =
         avatar ||
-        "";
+        "https://i.imgur.com/ipj0mDM.png";
 
 </script>
